@@ -20,7 +20,12 @@ class Sections:
         return found_section
 
     def register_section(self, section: Section):
-        if section.upStationId in self.up_sections:
+        up_sections_set = set(self.up_sections.keys())
+        down_section_set = set(self.down_sections.keys())
+        if section.downStationId in up_sections_set - down_section_set \
+                or section.upStationId in down_section_set - up_sections_set:
+            pass
+        elif section.upStationId in self.up_sections:
             saved_section: Section = self.up_sections[section.upStationId]
             saved_section.slice_right(section)
         elif section.downStationId in self.down_sections:
