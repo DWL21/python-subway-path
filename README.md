@@ -23,3 +23,7 @@ Java, Spring Boot 대신 처음 접하는 Python, Fast API 프레임워크로 �
 API Docs
 [v1](https://techcourse-storage.s3.ap-northeast-2.amazonaws.com/d5c93e187919493da3280be44de0f17f#Line)
 [v2](https://techcourse-storage.s3.ap-northeast-2.amazonaws.com/c682be69ae4e412c9e3905a59ef7b7ed#Line)
+
+원본 출처
+- [지하철 노선도 미션1 for Spring Boot](https://github.com/woowacourse/atdd-subway-map)
+- [지하철 노선도 미션2 for Spring Boot](https://github.com/woowacourse/atdd-subway-path)
